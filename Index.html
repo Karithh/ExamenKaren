@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title></title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <style>
+        /* custom CSS */
+        body {
+            padding-top: 70px;
+        }
+
+        .sidebar {
+            background-color: #212121;
+            height: 100%;
+            position: fixed;
+            left: 0;
+            overflow-x: hidden;
+            transition: all 0.3s;
+            width: 250px;
+            z-index: 999;
+        }
+
+        .sidebar .nav {
+            margin-top: 20px;
+        }
+
+        .sidebar .nav li a {
+            color: #fff;
+        }
+
+        .sidebar .nav li.active a {
+            background-color: #333;
+        }
+
+        .sidebar .nav li.active a:hover {
+            background-color: #333;
+        }
+
+        .main {
+            margin-left: 250px;
+            padding: 20px;
+        }
+        .navbar {
+            bottom: 662px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Spotify_logo_with_text.svg/200px-Spotify_logo_with_text.svg.png"
+                    alt="Logo de Spotify" width="140px">
+                <a class="navbar-brand" href="#"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Perfil</a></li>
+                    <li><a href="#">Iniciar Sesión</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <ul class="nav">
+            <li class="active"><a href="#"><i class="glyphicon glyphicon-home"></i> Inicio</a></li>
+            <li><a href="#"><i class="glyphicon glyphicon-search"></i> Buscar</a></li>
+            <li><a href="#"><i class="glyphicon glyphicon-th"></i> Tu Bibioteca</a></li>
+            <li><a href="#"><i class="glyphicon glyphicon-bookmark"></i> Crear Lista</a></li>
+            <li><a href="#"><i class="glyphicon glyphicon-heart"></i> Canciones que te gustan</a></li>
+        </ul>
+    </div>
+
+    <!-- Main content -->
+    <div class="main">
+        <div class="container">
+            <h3>Matisse </h3>
+            <div class="row">
+                <div class="col-sm-12 col-md-4 col-lg-2">
+                    <div class="card">
+                        <img class="card-img-top" width="150" height="150" src="https://th.bing.com/th/id/OIP.zcDzw5UmuURVyBSmxHHhBwHaHa?pid=ImgDet&rs=1" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Sube</h5>
+                            <a href="#" class="btn btn-primary"> <i class="glyphicon glyphicon-play"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-2">
+                    <div class="card">
+                        <img class="card-img-top" width="150" height="150" src="https://th.bing.com/th/id/R.97c41ad106bf2a70d2448ce1a99d6191?rik=pwzTafJhomw0AA&pid=ImgRaw&r=0" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title"> Imposible Amor </h5>
+                            <a href="#" class="btn btn-primary"> <i class="glyphicon glyphicon-play"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-2">
+                    <div class="card">
+                        <img class="card-img-top" width="150" height="150" src="https://th.bing.com/th/id/R.3eeac9f3223891076fea5bfbdc7e8cdc?rik=6IAP4CxMRqi7mg&riu=http%3a%2f%2fwww.lamejor.gremradio.com.mx%2fwp-content%2fuploads%2f2022%2f07%2fMatisse-e-Intocable01.jpg&ehk=RvhJhEtgdDFZAQSSLXRPpPI3w2RhGBYlC51QGHaBMsY%3d&risl=&pid=ImgRaw&r=0" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Más Muerto que Vivo </h5>
+                            <a href="#" class="btn btn-primary"> <i class="glyphicon glyphicon-play"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-2">
+                    <div class="card">
+                        <img class="card-img-top" width="150" height="150" src="https://th.bing.com/th/id/OIP.Rswa-jXrHgVf2S76x678BAAAAA?pid=ImgDet&rs=1" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title"> Por tu Bien </h5>
+                            <a href="#" class="btn btn-primary"> <i class="glyphicon glyphicon-play"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-2">
+                    <div class="card">
+                        <img class="card-img-top" width="150" height="150" src="https://th.bing.com/th/id/R.89d15f961c31a2bc6a21131811d5f49a?rik=GIU4TNzTqeSeoA&pid=ImgRaw&r=0" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Nadie</h5>
+                            <a href="#" class="btn btn-primary"> <i class="glyphicon glyphicon-play"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-2">
+                    <div class="card">
+                        <img class="card-img-top" width="150" height="150" src="https://th.bing.com/th/id/OIP.cG1tS4Yfgt5IlKMQ3qmIkQHaHS?pid=ImgDet&rs=1" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">This is Matisse</h5>
+                            <a href="#" class="btn btn-primary"> <i class="glyphicon glyphicon-play"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h3>Canciones populares</h3>
+            <div class="row">
+                <div class="col-sm-12 col-md-4 col-lg-2">
+                    <div class="card">
+                        <img class="card-img-top" width="150" height="150" src="https://th.bing.com/th/id/R.1b4c687b90710dda2798a39f9cc99e2c?rik=l1QBF7sWHTovSg&pid=ImgRaw&r=0" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Bruno Mars</h5>
+                            <a href="#" class="btn btn-primary"> <i class="glyphicon glyphicon-play"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-2">
+                    <div class="card">
+                        <img class="card-img-top" width="150" height="150" src="https://img.discogs.com/Icmk30cHu0KZ9a8JFZ2XMgcbO68=/fit-in/600x603/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-2622471-1532148112-1964.jpeg.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Bruno Mars</h5>
+                            <a href="#" class="btn btn-primary"> <i class="glyphicon glyphicon-play"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-2">
+                    <div class="card">
+                        <img class="card-img-top" width="150" height="150" src="https://th.bing.com/th/id/R.4ed67e77c85ad56172984386c12dd7de?rik=8IRwRgqHIuDekQ&pid=ImgRaw&r=0" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Taylor Swift</h5>
+                            <a href="#" class="btn btn-primary"> <i class="glyphicon glyphicon-play"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-2">
+                    <div class="card">
+                        <img class="card-img-top" width="150" height="150" src="https://th.bing.com/th/id/R.3c47d6789b9fa6191b68178ddb282266?rik=k8BR%2fMHPT%2fUW4A&pid=ImgRaw&r=0" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Taylor Swift</h5>
+                            <a href="#" class="btn btn-primary"> <i class="glyphicon glyphicon-play"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-2">
+                    <div class="card">
+                        <img class="card-img-top" width="150" height="150" src="https://th.bing.com/th/id/R.5bc67c6b910963c50c382748b2520bb8?rik=nT9NmkU0GLmCjA&riu=http%3a%2f%2fwww.gotceleb.com%2fwp-content%2fuploads%2fcelebrities%2fselena-gomez%2fgreatest-hits-for-you-album-cover-2014%2fSelena-Gomez---Greatest-Hits-For-You-Album-Cover-2014--01.png&ehk=O8ZnEqw%2b9%2bINbQeRrDlvlSEe%2bxNdQ7XDyZEMeslFcRI%3d&risl=&pid=ImgRaw&r=0" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Selena Gomez</h5>
+                            <a href="#" class="btn btn-primary"> <i class="glyphicon glyphicon-play"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-2">
+                    <div class="card">
+                        <img class="card-img-top" width="150" height="150" src="https://th.bing.com/th/id/OIP.yZx5NFJxEaXDcHDLUo3h-gHaHa?pid=ImgDet&rs=1" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Selena Gomez</h5>
+                            <a href="#" class="btn btn-primary"> <i class="glyphicon glyphicon-play"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
